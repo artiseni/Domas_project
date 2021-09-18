@@ -1,0 +1,40 @@
+
+### Users ###
+
+POST http://0.0.0.0:5000/signup
+Content-Type: application/json
+
+{
+    "username": "Dimas",
+    "email": "dimas@gmail.com",
+    "password": "123qwe"
+}
+
+###
+
+POST http://0.0.0.0:5000/login
+Content-Type: application/json
+
+{
+    "email": "dani@gmail.com",
+    "password": "123qwe"
+}
+
+
+### Resident ###
+
+POST http://0.0.0.0:5000/resident/add
+Content-Type: application/json
+
+{
+    "familyId": "125",
+    "nik": "125",
+    "name": "ABAY",
+    "place_dateOfBirth": "Serang, 28-02-1995",
+    "gender": "L",
+    "bloodType": "AB",
+    "rt": "009",
+    "rw": "003",
+    "maritalStatus": "BELUM KAWIN",
+    "profession": "BELUM/TIDAK BEKERJA"
+}
